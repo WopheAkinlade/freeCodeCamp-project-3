@@ -4,13 +4,14 @@ body{
 }
 
 header {
+    background-color: #eee;
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
     width: 90%;
-    /* position: fixed;
-    top: ; */
+    position: sticky;
+    top: 0;
 }
 
 #header-img{
@@ -98,3 +99,6 @@ form{
     font-size: 2em;
 }
 
+#video {
+    margin-left: 40vw;
+}
