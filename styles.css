@@ -9,6 +9,8 @@ header {
     justify-content: space-between;
     align-items: baseline;
     width: 90%;
+    /* position: fixed;
+    top: ; */
 }
 
 #header-img{
@@ -36,6 +38,7 @@ li{
     margin: auto;
     width: 50%;
     text-align: center;
+    margin-bottom: 13vh;
 }
 
 form{
@@ -61,3 +64,37 @@ form{
     height: 3vh;
     margin-top: 10px;
 }
+
+#features {
+    max-width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+.description {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.paragraphs{
+    width: 75%;
+}
+
+.paragraphs  h2{
+    margin-bottom: -13px;
+}
+
+.iconify {
+    font-size: 3em;
+    color: darkorange;
+    width: 15vw;
+}
+
+.battery{
+    font-size: 2em;
+}
+
