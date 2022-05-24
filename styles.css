@@ -1,3 +1,8 @@
+body{
+    font-family: sans-serif;
+    background-color: #eee;
+}
+
 header {
     margin-top: 20px;
     display: flex;
@@ -25,4 +30,34 @@ li{
 .nav-link{
     text-decoration: none;
     color: inherit;
+}
+
+#centred-div{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+#email {
+    margin-bottom: 5px;
+    max-width: 270px;
+    width: 100%;
+    height: 100%;
+}
+
+#submit{
+    background-color: rgb(255, 204, 0);
+    font-weight: 900;
+    border: none;
+    max-width: 160px;
+    width: 100%;
+    height: 3vh;
+    margin-top: 10px;
 }
